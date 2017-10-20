@@ -51,7 +51,7 @@ else
 end
 
 
-if failures
+if (failures > 0)
   puts "Test Failed"
 else
   puts "Test Passed"
